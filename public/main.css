@@ -1,0 +1,71 @@
+.navbar-brand {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    height: 71px;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+    font-size: 15px;
+    margin-top: 9px;
+    font-weight: 600;
+}
+
+.form {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-sub {
+    width: 30%;
+    height: auto;
+    box-shadow: 0 0 4px 1px lightgrey;
+    padding: 30px;
+    border-radius: 0.5rem;
+    text-align: center;
+    background-color: white;
+}
+
+.form-sub>h2 {
+    font-weight: 600;
+    padding-bottom: 5px;
+    border-bottom: 2px solid darkgray;
+}
+
+#btn {
+    width: 90%;
+    background-color: black;
+    border: 1px solid white;
+    height: 40px;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* background: linear-gradient(125deg, #292731 25%, #2d2b36 25%); */
+}
+
+.create {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.create>a>i {
+    margin-right: 10px;
+}
+
+.container {
+    text-align: center;
+}
+
+.table>tbody>tr>td {
+    vertical-align: middle;
+}
